@@ -1,0 +1,7 @@
+echo "# cheese" >> README.md
+git init
+git add READMe.md
+git commit -m "first commit"
+git branch -M main
+git remote add originhttps://github.com/Cheesesth1/cheese.git
+git push -origin main
